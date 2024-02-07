@@ -37,6 +37,7 @@ BuscarEmpleadoPorCargo:function(cargo){
             console.log(`Nombre: ${empleado.nombre} ${empleado.apellido}, Edad: ${empleado.edad}  Cargo: ${empleado.cargo}`);
         });
     },
+    
     // Método para eliminar un empleado por nombre
     eliminarEmpleadoPorNombre: function(nombre) {
         const indiceEmpleado = this.empleados.findIndex(empleado => empleado.nombre === nombre);
